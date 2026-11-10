@@ -1,0 +1,21 @@
+Detector,Comparison,Δ worst-phase FPR,Δ power,p (Holm)
+PCA,Rolling calibration,-0.4828,-0.4147,0.0391
+PCA,"Rolling, frozen buffer",+0.5047,+0.0055,0.0391
+PCA,Adaptive conformal inference,-0.1285,-0.3355,0.0391
+PCA,Phase-conditional (known phase),-0.4070,-0.0000,0.0391
+PCA,Phase-conditional (detected regime),-0.0000,-0.0000,1.0000
+Isolation Forest,Rolling calibration,-0.6223,-0.5111,0.0391
+Isolation Forest,"Rolling, frozen buffer",+0.3777,-0.0000,0.0391
+Isolation Forest,Adaptive conformal inference,-0.0042,-0.3590,1.0000
+Isolation Forest,Phase-conditional (known phase),-0.5467,-0.0000,0.0391
+Isolation Forest,Phase-conditional (detected regime),-0.0000,-0.0000,1.0000
+Dense autoencoder,Rolling calibration,-0.4902,-0.4838,0.0391
+Dense autoencoder,"Rolling, frozen buffer",+0.4855,+0.0031,0.0391
+Dense autoencoder,Adaptive conformal inference,-0.1451,-0.4905,0.0391
+Dense autoencoder,Phase-conditional (known phase),-0.4353,-0.0000,0.0391
+Dense autoencoder,Phase-conditional (detected regime),-0.0000,-0.0000,1.0000
+LSTM autoencoder,Rolling calibration,-0.9831,-0.4304,0.0391
+LSTM autoencoder,"Rolling, frozen buffer",+0.0169,-0.0000,1.0000
+LSTM autoencoder,Adaptive conformal inference,-0.9275,-0.2177,0.0391
+LSTM autoencoder,Phase-conditional (known phase),-0.9196,-0.0000,0.0391
+LSTM autoencoder,Phase-conditional (detected regime),-0.0000,-0.0000,1.0000

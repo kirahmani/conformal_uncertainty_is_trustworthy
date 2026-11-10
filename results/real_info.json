@@ -1,0 +1,58 @@
+[
+  {
+    "detector": "pca",
+    "power_tpr": 1.0,
+    "n_train": 60,
+    "n_cal": 60,
+    "n_test_inlier": 60,
+    "n_fault": 180,
+    "channels_used": 42,
+    "channels_dropped": 30,
+    "win_s": 4,
+    "alpha": 0.05,
+    "inject_rel_s": 720,
+    "block_windows": 8
+  },
+  {
+    "detector": "iforest",
+    "power_tpr": 0.2388888888888889,
+    "n_train": 60,
+    "n_cal": 60,
+    "n_test_inlier": 60,
+    "n_fault": 180,
+    "channels_used": 42,
+    "channels_dropped": 30,
+    "win_s": 4,
+    "alpha": 0.05,
+    "inject_rel_s": 720,
+    "block_windows": 8
+  },
+  {
+    "detector": "dense_ae",
+    "power_tpr": 0.9888888888888889,
+    "n_train": 60,
+    "n_cal": 60,
+    "n_test_inlier": 60,
+    "n_fault": 180,
+    "channels_used": 42,
+    "channels_dropped": 30,
+    "win_s": 4,
+    "alpha": 0.05,
+    "inject_rel_s": 720,
+    "block_windows": 8
+  },
+  {
+    "detector": "lstm_ae",
+    "power_tpr": 1.0,
+    "n_train": 60,
+    "n_cal": 60,
+    "n_test_inlier": 60,
+    "n_fault": 180,
+    "channels_used": 42,
+    "channels_dropped": 30,
+    "win_s": 4,
+    "alpha": 0.05,
+    "inject_rel_s": 720,
+    "block_windows": 8
+  }
+]

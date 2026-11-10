@@ -1,0 +1,182 @@
+{
+    "1": {
+        "template": "currencyservice conversion request successful",
+        "container": [
+            "currencyservice"
+        ]
+    },
+    "2": {
+        "template": "frontend request started",
+        "container": [
+            "frontend"
+        ]
+    },
+    "3": {
+        "template": "frontend serving product page",
+        "container": [
+            "frontend"
+        ]
+    },
+    "4": {
+        "template": "currencyservice Getting supported currencies...",
+        "container": [
+            "currencyservice"
+        ]
+    },
+    "5": {
+        "template": "cartservice GetCartAsync called with userId=<:USERID:>",
+        "container": [
+            "cartservice"
+        ]
+    },
+    "6": {
+        "template": "frontend env platform is either empty or invalid",
+        "container": [
+            "frontend"
+        ]
+    },
+    "7": {
+        "template": "frontend Detected Google metadata server: [<:IP:>], setting ENV PLATFORM to GCP.",
+        "container": [
+            "frontend"
+        ]
+    },
+    "8": {
+        "template": "frontend ENV PLATFORM is: gcp",
+        "container": [
+            "frontend"
+        ]
+    },
+    "9": {
+        "template": "adservice received ad request (context words=<:CONTEXT:>)",
+        "container": [
+            "adservice"
+        ]
+    },
+    "10": {
+        "template": "frontend request complete",
+        "container": [
+            "frontend"
+        ]
+    },
+    "11": {
+        "template": "recommendationservice [Recv ListRecommendations] product ids=<:[PRODUCT IDS]:>",
+        "container": [
+            "recommendationservice"
+        ]
+    },
+    "12": {
+        "template": "frontend adding to cart",
+        "container": [
+            "frontend"
+        ]
+    },
+    "13": {
+        "template": "cartservice AddItemAsync called with userId=<:USERID:>, productId=<:PRODUCT ID:>, quantity=<:QUANTITY:>",
+        "container": [
+            "cartservice"
+        ]
+    },
+    "14": {
+        "template": "frontend view user cart",
+        "container": [
+            "frontend"
+        ]
+    },
+    "15": {
+        "template": "shippingservice [GetQuote] received request",
+        "container": [
+            "shippingservice"
+        ]
+    },
+    "16": {
+        "template": "shippingservice [GetQuote] completed request",
+        "container": [
+            "shippingservice"
+        ]
+    },
+    "17": {
+        "template": "cartservice Checking CartService Health",
+        "container": [
+            "cartservice"
+        ]
+    },
+    "18": {
+        "template": "frontend setting currency",
+        "container": [
+            "frontend"
+        ]
+    },
+    "19": {
+        "template": "frontend home",
+        "container": [
+            "frontend"
+        ]
+    },
+    "20": {
+        "template": "frontend placing order",
+        "container": [
+            "frontend"
+        ]
+    },
+    "21": {
+        "template": "checkoutservice [PlaceOrder] user id=\"<:USERID:>\" user currency=<:CUR:>",
+        "container": [
+            "checkoutservice"
+        ]
+    },
+    "22": {
+        "template": "paymentservice PaymentService#Charge invoked with request<:ITEM:>",
+        "container": [
+            "paymentservice"
+        ]
+    },
+    "23": {
+        "template": "paymentservice Transaction processed: visa ending <:NUM:> Amount:<:MONEY:>",
+        "container": [
+            "paymentservice"
+        ]
+    },
+    "24": {
+        "template": "checkoutservice payment went through (transaction id<:TRANSACTION ID:>",
+        "container": [
+            "checkoutservice"
+        ]
+    },
+    "25": {
+        "template": "shippingservice [ShipOrder] received request",
+        "container": [
+            "shippingservice"
+        ]
+    },
+    "26": {
+        "template": "shippingservice [ShipOrder] completed request",
+        "container": [
+            "shippingservice"
+        ]
+    },
+    "27": {
+        "template": "cartservice EmptyCartAsync called with userId=<:USERID:>",
+        "container": [
+            "cartservice"
+        ]
+    },
+    "28": {
+        "template": "emailservice A request to send order confirmation email to someone@example.com has been received.",
+        "container": [
+            "emailservice"
+        ]
+    },
+    "29": {
+        "template": "checkoutservice order confirmation email sent to \"someone@example.com\"",
+        "container": [
+            "checkoutservice"
+        ]
+    },
+    "30": {
+        "template": "frontend order placed",
+        "container": [
+            "frontend"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "alpha": 0.05,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "detectors": [
+    "pca",
+    "iforest",
+    "dense_ae",
+    "lstm_ae"
+  ],
+  "cal_modes": [
+    "steady",
+    "mixed"
+  ],
+  "n_cal": 1500,
+  "n_windows_approx": 6000
+}
